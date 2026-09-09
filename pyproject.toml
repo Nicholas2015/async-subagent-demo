@@ -12,8 +12,12 @@ dependencies = [
     "langgraph",
     "langgraph-sdk",
     "langchain-openai",
-    "dotenv>=0.9.9",
+    "langgraph-cli[inmem]",
+    "python-dotenv>=1.2.3",
 ]
+
+[tool.uv]
+package = false
 
 [project.scripts]
 async-subagent-demo = "async_subagent_demo:main"

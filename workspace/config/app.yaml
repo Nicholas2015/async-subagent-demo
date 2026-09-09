@@ -1,0 +1,12 @@
+app:
+  name: async-subagent-demo
+  version: 0.1.0
+  debug: false
+
+server:
+  host: 127.0.0.1
+  port: 2024
+
+logging:
+  level: info
+  format: json
